@@ -161,10 +161,11 @@ a {
   background-color: #e72875;
   border-radius: 99em;
   font-family: 'Lato', Verdana, sans-serif;
-  letter-spacing: .05em;
+  letter-spacing: .02em;
   box-shadow: 0 4px 0px #111539;
   transition: background-color 300ms;
   margin-top: 20px;
+  font-weight: bold;
 }
 
 
