@@ -121,12 +121,18 @@ a {
 }
 
 
+.mainBox-footer {
+  margin-top: 40px;
+}
+
+
 .link {
   line-height: 1.25;
   display: inline-block;
   position: relative;
   transition: transform 300ms;
 }
+
 
 .link::after {
   content: "";
@@ -151,6 +157,16 @@ a {
   -webkit-transform: translateY(3px);
   -ms-transform: translateY(3px);
   transform: translateY(3px);
+}
+
+
+.link--small {
+  font-size: 0.9em;
+}
+
+
+.link + .link {
+  margin-left: 20px;
 }
 
 
