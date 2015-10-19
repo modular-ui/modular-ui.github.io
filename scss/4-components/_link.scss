@@ -1,0 +1,56 @@
+// *************************************
+//
+//   Link
+//
+// *************************************
+
+.link {
+  line-height: 1.25;
+  display: inline-block;
+  position: relative;
+  transition: transform 300ms;
+
+
+  // Descendents
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid #e72875;
+    transition: transform 300ms;
+  }
+
+
+  // States
+  &:hover {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+
+    &::after {
+      -webkit-transform: translateY(3px);
+      -ms-transform: translateY(3px);
+      transform: translateY(3px);
+    }
+  }
+}
+
+
+
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+.link--small {
+  font-size: 0.9em;
+}
+
+
+// Temporary – Change to utility class
+.link + .link {
+  margin-left: 20px;
+}

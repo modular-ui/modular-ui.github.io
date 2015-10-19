@@ -1,2 +1,1 @@
-# modular-ui.github.io
-ModularUI's website
+# ModularUI's website

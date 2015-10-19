@@ -1,0 +1,28 @@
+// *************************************
+//
+//   Main Box
+//
+// *************************************
+
+.mainBox {
+  position: relative;
+  top: 50%;
+  width: 90%;
+  max-width: 580px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+
+// -------------------------------------
+//   Descendents
+// -------------------------------------
+
+.mainBox-footer {
+  margin-top: 40px;
+}
