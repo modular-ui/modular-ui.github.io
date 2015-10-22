@@ -410,7 +410,7 @@ th {
   padding: 0; }
 
 html {
-  height: 100%; }
+ }
 
 body {
   height: 100%;
@@ -482,7 +482,7 @@ a {
 
 .mainBox {
   position: relative;
-  top: 50%;
+  top: 50vh;;
   width: 90%;
   max-width: 580px;
   margin: 0 auto;
