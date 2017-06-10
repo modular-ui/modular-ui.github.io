@@ -8,9 +8,9 @@
   text-align: center;
   display: inline-block;
   padding: 12px 30px;
-  background-color: #e72875;
+  background-color: $color-primary;
   border-radius: 99em;
-  font-family: 'Lato', Verdana, sans-serif;
+  font-family: $type-secondary;
   letter-spacing: .02em;
   box-shadow: 0 4px 0px #111539;
   transition: background-color 300ms;

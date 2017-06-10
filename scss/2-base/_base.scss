@@ -13,9 +13,9 @@ html {
 }
 
 body {
- font-family: 'Merriweather', serif;
+ font-family: $type-primary;
  line-height: 1.75;
- background-color: #1c2145;
+ background-color: $color-secondary;
  font-weight: 400;
  color: #fff;
  -webkit-font-smoothing: antialiased;
