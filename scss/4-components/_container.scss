@@ -1,16 +1,16 @@
 // *************************************
 //
-//   Main Box
+//   Container
 //
 // *************************************
 
-.mainBox {
-  position: relative;
-  top: 50vh;
+.container {
   width: 90%;
-  max-width: 580px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+  top: 50vh;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -23,6 +23,6 @@
 //   Descendents
 // -------------------------------------
 
-.mainBox-footer {
-  margin-top: 40px;
+.container-footer {
+  margin-top: 60px;
 }
