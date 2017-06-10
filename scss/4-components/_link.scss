@@ -19,7 +19,7 @@
     bottom: -2px;
     display: inline-block;
     width: 100%;
-    border-bottom: 2px solid #e72875;
+    border-bottom: 2px solid $color-primary;
     transition: transform 300ms;
   }
 
@@ -47,10 +47,4 @@
 
 .link--small {
   font-size: 0.9em;
-}
-
-
-// Temporary – Change to utility class
-.link + .link {
-  margin-left: 20px;
 }
