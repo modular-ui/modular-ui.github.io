@@ -16,10 +16,12 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -2px;
+    bottom: -3px;
     display: inline-block;
     width: 100%;
-    border-bottom: 2px solid $color-primary;
+    height: 1px;
+    background-color: $color-primary;
+    backface-visibility: hidden;
     transition: transform 300ms;
   }
 
@@ -31,9 +33,9 @@
     transform: translateY(-2px);
 
     &::after {
-      -webkit-transform: translateY(3px);
-      -ms-transform: translateY(3px);
-      transform: translateY(3px);
+      -webkit-transform: translateY(4px);
+      -ms-transform: translateY(4px);
+      transform: translateY(4px);
     }
   }
 }
