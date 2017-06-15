@@ -7,13 +7,17 @@
 .container {
   width: 90%;
   max-width: 600px;
+  padding: 40px 0;
   margin: 0 auto;
   text-align: center;
-  position: relative;
-  top: 50vh;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+
+  @media (min-height: 700px) {
+    position: relative;
+    top: 50vh;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 }
 
 
